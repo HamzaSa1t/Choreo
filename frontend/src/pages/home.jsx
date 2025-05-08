@@ -121,7 +121,9 @@ return (
             <Structure />
             <ContentComponent />
                 {products.length === 0 ? (         
-null
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+<h1 style={{ color: 'black' }}>No products available yet</h1>
+    </div>
                 ) : (
 
                     <div className="products-list">
